@@ -17,10 +17,10 @@ class ConfigurationBaseDeDonnees {
         'port' => '3316',
         // A l'IUT, c'est votre login
         // Sur votre machine, vous avez surement un compte 'root'
-        'login' => 'tordeuxm',
+        'login' => '',
         // A l'IUT, c'est le même mdp que PhpMyAdmin
         // Sur votre machine personelle, vous avez creez ce mdp a l'installation
-        'motDePasse' => 'MahouTsukai'
+        'motDePasse' => ''
     );
 
     static public function getLogin() : string {
