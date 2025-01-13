@@ -1,0 +1,128 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+/* Conteneur principal */
+.content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre */
+    padding: 20px;
+    margin-bottom: 20px; /* Espace entre les sections */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+fieldset{
+    border: none;
+}
+
+/* Titres */
+h1 {
+    font-size: 1.8em; /* Taille du titre principal */
+    color: #ff5660;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Paragraphes */
+p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Formulaire */
+form {
+    margin-top: 20px; /* Espacement au-dessus du formulaire */
+}
+
+/* Champs de saisie */
+input[type="text"],
+input[type="number"],
+input[type="hidden"] {
+    width: calc(100% - 20px); /* Largeur des champs de saisie */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border 0.3s;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #ff5660; /* Couleur de la bordure au focus */
+    outline: none;
+}
+
+/* Boutons */
+input[type="submit"] {
+    background-color: #ff5660;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3b4d; /* Couleur au survol */
+}
+
+/* Styles pour les cases à cocher */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form.ecole {
+    display: flex; /* Affiche les éléments en ligne */
+    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+    gap: 10px; /* Espace entre les éléments */
+    margin-top: 15px; /* Espacement au-dessus du formulaire */
+    align-items: center; /* Centre verticalement */
+}
+
+form.ecole input[type="checkbox"] {
+    accent-color: #ff5660; /* Personnalisation de la couleur des cases à cocher */
+    transform: scale(1.2); /* Agrandit légèrement les cases */
+    cursor: pointer; /* Curseur interactif */
+    margin-right: 5px; /* Espacement entre la case et le texte */
+}
+
+form.ecole label {
+    font-size: 14px; /* Taille du texte des étiquettes */
+    color: #555; /* Couleur du texte */
+    cursor: pointer; /* Clique sur le texte pour cocher */
+}
+
+form.ecole label:hover {
+    color: #ff3b4d; /* Couleur dynamique au survol */
+}
+
+form.ecole input[type="submit"] {
+    background-color: #ff5660; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    border: none; /* Supprime les bordures */
+    padding: 8px 15px; /* Espacement interne */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur interactif */
+    font-size: 14px; /* Taille de la police */
+    margin-top: 10px; /* Espacement au-dessus du bouton */
+    transition: background-color 0.3s; /* Effet de transition */
+}
+
+form.ecole input[type="submit"]:hover {
+    background-color: #ff3b4d; /* Couleur au survol */
+}

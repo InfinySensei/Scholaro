@@ -1,0 +1,65 @@
+
+#agregation-details {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(255, 86, 96);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.agregation-title {
+    font-size: 24px;
+    color: rgb(255, 86, 96);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ressources-title, .agregations-title {
+    font-size: 20px;
+    color: rgb(255, 86, 96);
+    margin-bottom: 10px;
+}
+
+.ressources-section, .agregations-section {
+    margin-top: 20px;
+}
+
+.ressource-item, .agregation-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid rgb(255, 86, 96);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.ressource-name, .ressource-coef, .agregation-id, .agregation-coef {
+    margin: 5px 0;
+}
+
+.agregation-link {
+    color: rgb(255, 86, 96);
+    text-decoration: none;
+}
+
+.agregation-link:hover {
+    text-decoration: underline;
+}
+
+.delete-agregation-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete-agregation-button {
+    background-color: rgb(255, 86, 96);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-agregation-button:hover {
+    background-color: rgb(200, 50, 60);
+}

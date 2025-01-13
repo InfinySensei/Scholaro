@@ -1,0 +1,100 @@
+/* Formulaire général */
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    font-family: 'apple', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Fieldset */
+fieldset {
+    border: none;
+}
+
+/* Legend */
+legend {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Champs classiques */
+p {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Champs d'entrée */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border 0.3s;
+}
+
+/* Focus sur les champs */
+input:focus {
+    border-color: #ff5660;
+    outline: none;
+}
+
+/* Champ spécial pour InputAddOn */
+.InputAddOn {
+    margin-bottom: 15px;
+}
+
+.InputAddOn-item {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.InputAddOn-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border 0.3s;
+}
+
+/* Focus sur les champs InputAddOn */
+.InputAddOn-field:focus {
+    border-color: #ff5660;
+    outline: none;
+}
+
+/* Bouton d'envoi */
+input[type="submit"] {
+    background-color: #ff5660;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff0008;
+}

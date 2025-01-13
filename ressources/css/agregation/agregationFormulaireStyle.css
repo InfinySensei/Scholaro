@@ -1,0 +1,155 @@
+
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Conteneur principal */
+.content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px;
+    margin: 0 auto; /* Centrer le contenu */
+    max-width: 1200px; /* Largeur maximale du contenu */
+}
+
+/* Titres */
+h1 {
+    font-size: 2.2em; /* Taille du titre principal */
+    color: #ff5660;
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 30px; /* Espacement au-dessus du titre */
+}
+
+/* Paragraphes */
+p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Formulaire */
+form {
+    margin-top: 20px; /* Espacement au-dessus du formulaire */
+}
+
+
+.fieldset-semestres,
+.fieldset-agregation {
+    border: 2px solid rgb(255, 255, 255); /* Contours rose */
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.legend-semestres,
+.legend-agregation {
+    font-size: 1.5em; /* Réduction de la taille des titres */
+    font-weight: bold;
+    color: rgb(255, 86, 96);
+    margin-bottom: 10px; /* Espacement sous les titres */
+}
+
+.semestre-options {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.label-semestre {
+    font-size: 1em;
+    color: #333;
+}
+
+.checkbox-semestre {
+    margin-right: 10px;
+}
+
+.input-agregation-container {
+    margin-top: 10px;
+}
+
+.input-agregation {
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.input-coeff {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ressources-title,
+.agregation-title {
+    font-weight: bold;
+    margin: 15px 0 10px;
+    color: rgb(255, 86, 96);
+}
+
+.ressources-list,
+.agregations-list {
+    margin-top: 10px;
+}
+
+.ressource-item,
+.agregation-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ressource-name,
+.agregation-name {
+    flex: 1;
+    font-size: 1em;
+}
+
+.btn-submit {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(255, 86, 96);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #ff0008;
+}
+
+.semestre-options input[type="checkbox"] {
+    accent-color: #ff5660; /* Personnalisation de la couleur des cases à cocher */
+    transform: scale(1.2); /* Agrandit légèrement les cases */
+    cursor: pointer; /* Curseur interactif */
+    margin-right: 5px; /* Espacement entre la case et le texte */
+}
+
+.semestre-options label {
+    font-size: 14px; /* Taille du texte des étiquettes */
+    color: #555; /* Couleur du texte */
+    cursor: pointer; /* Clique sur le texte pour cocher */
+}
+
+.semestre-options label:hover {
+    color: #ff3b4d; /* Couleur dynamique au survol */
+}

@@ -1,0 +1,219 @@
+body {
+    margin: 0px;
+}
+
+.marge {
+    margin: 10px;
+}
+
+/* Style général du tableau */
+table {
+    width: 100%; /* Prend toute la largeur de la page */
+    border-collapse: collapse; /* Fusionne les bordures */
+    border-radius: 8px; /* Arrondit les coins du tableau */
+    overflow: hidden; /* Assure que les coins arrondis sont appliqués correctement */
+}
+
+
+/* Style des cellules du tableau */
+th, td {
+    text-align: center; /* Centre le texte */
+    padding-top: 8px; /* Ajoute un peu d'espace autour du texte */
+    padding-bottom: 8px; /* Ajoute un peu d'espace autour du texte */
+}
+
+td {
+    border: 1px solid #000; /* Bordures noires */
+}
+
+/* Couleur de fond pour les lignes */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Gris pour les lignes paires */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Blanc pour les lignes impaires */
+}
+
+/* Style pour les en-têtes */
+th {
+    background-color: rgb(255, 86, 96); /* Couleur de fond des en-têtes */
+    color: white; /* Couleur du texte des en-têtes */
+}
+
+.table-title {
+    padding-left: 10px; /* Ajoute de l'espace autour du texte */
+    margin-bottom: 0px; /* Espace entre le titre et le tableau */
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Conserve la couleur du texte de la cellule */
+    display: block;
+}
+
+
+.padd {
+    padding: 10px;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-between; /* Aligner les éléments de manière espacée */
+    align-items: center; /* Centrer verticalement */
+    margin-bottom: 15px;
+}
+
+/* Style pour le bouton d'importation */
+.bouton-importation {
+    cursor: pointer;
+    background-color: rgb(255, 86, 96); /* Couleur de fond initiale (vert) */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border: none; /* Suppression de la bordure */
+    border-radius: 4px; /* Coins arrondis */
+    text-decoration: none; /* Supprimer la décoration de lien */
+    display: inline-block;
+}
+
+
+.pas-etudiant {
+    margin: 20px;
+    text-align: center;
+}
+
+.corbeille {
+    width: 30px;
+}
+
+
+
+/*style des formulaires*/
+
+form {
+
+    background-color: #ffffff;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+
+    width: 300px;
+
+    margin: 20px auto 50px auto;
+
+    font-family: 'apple', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+fieldset {
+
+    border: none;
+
+}
+
+
+
+
+.InputAddOn {
+
+    margin-bottom: 15px;
+
+}
+
+
+.InputAddOn-item {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+    color: #555;
+
+    margin-top: 5px;
+
+}
+
+
+/* Champ de saisie */
+
+.InputAddOn-field {
+
+    width: calc(100% - 20px);
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    font-size: 1em;
+
+    transition: border 0.3s;
+
+}
+
+
+.InputAddOn-field:focus {
+
+    border-color: #ff5660;
+
+    outline: none;
+
+}
+
+
+
+
+.InputAddOn-field[type="radio"] {
+
+    width: auto;
+    margin-right: 5px;
+}
+
+
+
+
+input[type="submit"] {
+
+    background-color: #ff5660;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 8px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    font-size: 0.9em;
+
+    transition: background-color 0.3s;
+
+    width: 100%;
+
+}
+
+
+input[type="submit"]:hover {
+
+    background-color: #ff0008;
+
+}
+
+.champs{
+    font-size: 12px;
+    color: #767676;
+    font-family: 'apple', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7px;
+}
